@@ -146,7 +146,6 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   padding-bottom: 15px;
@@ -155,7 +154,10 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'SFUIDisplay3';
+}
+#mainNav .navbar-brand b{
+  font-family: 'SFUIDisplay1';
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -164,20 +166,26 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
+  font-size: 17px;
   font-weight: 700;
   color: #212529;
+  transition: all 0.2s;
+  line-height: 20px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #F05F40;
+  transition: all 0.2s;
+  line-height: 19px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #f9f65e !important;
   background-color: transparent;
+    transition: all 0.2s;
+  line-height: 20px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
@@ -194,13 +202,15 @@ img::-moz-selection {
   #mainNav .navbar-brand {
     color: white;
 	line-height: 20px;
+	transition: 0.2s linear;
+	font-size: 22px;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fbf645;
 	transition: 0.2s linear;
-	font-size:21px;
+	font-size:24px;
 	margin-left: -2px;
-	margin-top: -1px;
+	margin-top: 0px;
 	line-height: 20px;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
@@ -213,6 +223,9 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #f9f65e;
+		transition: 0.2s linear;
+		line-height:20px;
+		font-size: 18px;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
