@@ -3,7 +3,30 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
-
+@font-face {
+    font-family: SFUIDisplay1;
+    src: url(../fonts/SFUIDisplay-Light.eot);
+	src: local(SFUIDisplay1), url(../fonts/SFUIDisplay-Light.ttf);
+	src: local('SFUIDisplay1'), url('../fonts/SFUIDisplay-Light.woff') format('woff'), url('../fonts/SFUIDisplay-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+@font-face {
+    font-family: SFUIDisplay2;
+    src: url(../fonts/SFUIDisplay-Thin.eot);
+	src: local(SFUIDisplay2), url(../fonts/SFUIDisplay-Thin.ttf);
+	src: local('SFUIDisplay2'), url('../fonts/SFUIDisplay-Thin.woff') format('woff'), url('../fonts/SFUIDisplay-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+@font-face {
+    font-family: SFUIDisplay3;
+    src: url(../fonts/SFUIDisplay-Ultralight.eot);
+	src: local(SFUIDisplay3), url(../fonts/SFUIDisplay-Ultralight.ttf);
+	src: local('SFUIDisplay3'), url('../fonts/SFUIDisplay-Ultralight.woff') format('woff'), url('../fonts/SFUIDisplay-Ultralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }  
 body,
 html {
   width: 100%;
@@ -13,7 +36,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'SFUIDisplay3';
 }
 
 hr {
@@ -46,7 +69,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #1b1a1a !important;
+  background-color: #1a1a1a !important;
 }
 
 .bg-dark {
@@ -61,9 +84,9 @@ section {
   padding: 8rem 0;
 }
  section.headersback {
-  -webkit-box-shadow: 0px -12px 30px 8px rgb(26, 26, 26);
-  -moz-box-shadow: 0px -12px 30px 8px rgba(26,26,26,1);
-  box-shadow: 0px -12px 30px 8px rgb(26, 26, 26);
+  -webkit-box-shadow: 0px -28px 30px 3px rgb(26, 26, 26);
+  -moz-box-shadow: 0px -28px 30px 3px rgba(26,26,26,1);
+  box-shadow: 0px -28px 30px 3px rgb(27, 26, 26);
  }
 .section-heading {
   margin-top: 0;
