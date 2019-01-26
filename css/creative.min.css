@@ -8,6 +8,8 @@ body,
 html {
   width: 100%;
   height: 100%;
+  background-color: #1a1a1a;
+  color: #ffffff;
 }
 
 body {
@@ -44,7 +46,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: #1b1a1a !important;
 }
 
 .bg-dark {
@@ -58,7 +60,11 @@ h6 {
 section {
   padding: 8rem 0;
 }
-
+ section.headersback {
+  -webkit-box-shadow: 0px -12px 30px 8px rgb(26, 26, 26);
+  -moz-box-shadow: 0px -12px 30px 8px rgba(26,26,26,1);
+  box-shadow: 0px -12px 30px 8px rgb(26, 26, 26);
+ }
 .section-heading {
   margin-top: 0;
 }
