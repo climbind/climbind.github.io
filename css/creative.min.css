@@ -47,10 +47,10 @@ background-image: url(../img/logo_white.svg);
     width: 1000px;
     height: 1000px;
     position: absolute;
-    background-size: 587px;
+    background-size: 515px;
     background-repeat: no-repeat;
-    margin-left: -195px;
-    margin-top: -204px;
+    margin-left: -101px;
+    margin-top: -187px;
 }
 header.masthead h1 {
   font-family: 'SFUIDisplay3';
@@ -65,7 +65,7 @@ body {
 }
 
 hr {
-	max-width: 449px;
+	max-width: 380px;
     border-width: 3px;
     border-color: #ffffff;
 }
@@ -254,7 +254,7 @@ header.masthead p {
 
 @media (min-width: 768px) {
   header.masthead p {
-    font-size: 2.15rem;
+    font-size: 1.90rem;
   }
 }
 
@@ -272,7 +272,7 @@ header.masthead p {
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 12rem;
+    font-size: 10rem;
   }
 }
 
