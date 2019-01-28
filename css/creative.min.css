@@ -73,9 +73,9 @@ section {
   padding: 8rem 0;
 }
  section.headersback {
-  -webkit-box-shadow: 0px -28px 30px 3px rgb(26, 26, 26);
-  -moz-box-shadow: 0px -28px 30px 3px rgba(26,26,26,1);
-  box-shadow: 0px -28px 30px 3px rgb(27, 26, 26);
+  -webkit-box-shadow: 0px 0px 20px 20px rgb(26, 26, 26);
+  -moz-box-shadow: 0px 0px 20px 20px rgba(26,26,26,1);
+  box-shadow: 0px 0px 20px 20px rgb(27, 26, 26);
  }
 .section-heading {
   margin-top: 0;
