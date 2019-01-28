@@ -1,4 +1,33 @@
+.col-lg-8 {
+	-ms-flex: 0 0 86.666667%;
+    flex: 0 0 86.666667%;
+    max-width: 86.666667%;
+}
 
+.col-lg-3 {
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+.text-muted {
+	color: white !important;
+}
+
+.text-center-eb {
+	margin: auto;
+}
+.col-lg-8  h2,
+.col-lg-12 h2{
+	font-size: 3rem;
+    font-family: 'SF UI Display2';
+}
+
+.service-box h3{
+    font-family: 'SF UI Display2';
+}
+.my-10 {
+width: 50px;
+}
 body,
 html {
   width: 100%;
