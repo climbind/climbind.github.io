@@ -1,34 +1,4 @@
-/*!
- * Start Bootstrap - Creative v5.0.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
- */
-@font-face {
-    font-family: SFUIDisplay1;
-    src: url(../fonts/SFUIDisplay-Light.eot);
-	src: local(SFUIDisplay1), url(../fonts/SFUIDisplay-Light.ttf);
-	src: local('SFUIDisplay1'), url('../fonts/SFUIDisplay-Light.woff') format('woff'), url('../fonts/SFUIDisplay-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-   }
-@font-face {
-    font-family: SFUIDisplay2;
-    src: url(../fonts/SFUIDisplay-Thin.eot);
-	src: local(SFUIDisplay2), url(../fonts/SFUIDisplay-Thin.ttf);
-	src: local('SFUIDisplay2'), url('../fonts/SFUIDisplay-Thin.woff') format('woff'), url('../fonts/SFUIDisplay-Thin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-	}
-@font-face {
-    font-family: SFUIDisplay3;
-    src: url(../fonts/SFUIDisplay-Ultralight.eot);
-	src: local(SFUIDisplay3), url(../fonts/SFUIDisplay-Ultralight.ttf);
-	src: local('SFUIDisplay3'), url('../fonts/SFUIDisplay-Ultralight.woff') format('woff'), url('../fonts/SFUIDisplay-Ultralight.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-   }
-   
-   
+
 body,
 html {
   width: 100%;
@@ -52,15 +22,18 @@ box-shadow: 0px 0px 63px 36px rgba(0,0,0,0.6);
     margin-top: -130px;
 }
 header.masthead h1 {
-  font-family: 'SFUIDisplay3';
+    font-family: 'SF UI Display1';
+    font-style: normal;
 }
 
 header.masthead h1 b{
-  font-family: 'SFUIDisplay1';
+    font-family: 'SF UI Display3';
+    font-style: normal;
 }
 
 body {
-  font-family: 'SFUIDisplay3';
+    font-family: 'SF UI Display1';
+    font-style: normal;
 }
 
 hr {
@@ -83,14 +56,6 @@ a:hover {
   color: #f05f40;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
 
 .bg-primary {
   background-color: #1a1a1a !important;
@@ -151,12 +116,13 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  font-weight: 700;
   color: #F05F40;
-  font-family: 'SFUIDisplay3';
+    font-family: 'SF UI Display1';
+    font-style: normal;
 }
 #mainNav .navbar-brand b{
-  font-family: 'SFUIDisplay1';
+    font-family: 'SF UI Display3';
+    font-style: normal;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -325,7 +291,6 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -364,7 +329,6 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .btn-xl {
