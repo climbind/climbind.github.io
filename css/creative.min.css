@@ -94,6 +94,18 @@ a:hover {
   text-decoration: none;
 }
 
+#services a {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  line-height: 1.75rem;
+}
+
+#services a:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 1.85rem;
+  line-height: 1.75rem;
+}
 
 .bg-primary {
   background-color: #1a1a1a !important;
