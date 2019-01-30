@@ -34,6 +34,11 @@ html {
   height: 100%;
   background-color: #1a1a1a;
   color: #ffffff;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+   user-select: none;
 }
 .row.firstrow {
     background-color: rgba(0, 0, 0, 0.60);
