@@ -8,13 +8,6 @@
     margin-top: -130px;
 }
 
-@media (max-width: 320px) {
-.logoalpinist {
-    width: 150px;
-    height: 150px;
-}
-}
-
 .col-lg-8 {
 	-ms-flex: 0 0 86.666667%;
     flex: 0 0 86.666667%;
@@ -427,4 +420,79 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+@media (max-width: 320px) {
+section {
+    padding: 2rem 0;
+}
+.logoalpinist {
+    width: 150px;
+    height: 150px;
+    margin-top: -68px;
+    margin-left: -22px;
+}
+#mainNav .navbar-brand {
+    color: #ffffff;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+	color: #fbf645;
+}
+
+#mainNav {
+	width: 320px;
+	border-bottom: none;
+	padding-bottom: 6px;
+	background-color: rgba(0,0,0,0.35);
+}
+
+.col-lg-3 {
+	-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+header.masthead hr {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    max-width: 75px;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+	color:white;
+	text-align:right;
+	line-height: 20px;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+	color: #fbf645;
+	line-height: 20px;
+}
+.navbar-dark .navbar-toggler:active,
+.navbar-dark .navbar-toggler,
+.navbar-dark .navbar-toggler:hover,
+.navbar-dark .navbar-toggler:focus,
+.navbar-dark .navbar-toggler:link,
+.navbar-dark .navbar-toggler:visited,
+.navbar-dark .navbar-toggler:first-child {
+	border-color: rgba(255,255,255,.0) !important;
+}
+.col-lg-3 hr {
+	display:none;
+}
+#services .section-heading {
+    margin-top: 60px;
+}
+.forstylecenterservice {
+	padding-bottom: 0px;
+}
+#services hr {
+	margin-top: 10px !important;
+	margin-bottom: 0px !important;
+}
+.col-lg-8 h2, .col-lg-12 h2 {
+	font-size: 2.2rem;
+}
+.h3, h3 {
+    font-size: 1.6rem;
+}
 }
