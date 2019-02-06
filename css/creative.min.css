@@ -8,6 +8,10 @@
     margin-top: -110px;
 }
 
+brand {
+	font-size: 1.1rem;
+}
+
 hr.hr1 {
     max-width: 183px;
 }
