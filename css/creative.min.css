@@ -16,6 +16,30 @@ hr.hr1 {
     max-width: 183px;
 }
 
+hr.hr4 {
+    max-width: 120px;
+}
+
+hr.hr5 {
+    max-width: 665px;
+}
+
+hr.hr6 {
+    max-width: 630px;
+}
+
+hr.hr7 {
+    max-width: 695px;
+}
+
+hr.hr8 {
+    max-width: 665px;
+}
+
+hr.hr9 {
+    max-width: 173px;
+}
+
 .col-lg-8 {
 	-ms-flex: 0 0 86.666667%;
     flex: 0 0 86.666667%;
