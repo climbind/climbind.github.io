@@ -8,6 +8,10 @@
     margin-top: -110px;
 }
 
+hr.hr1 {
+    max-width: 183px;
+}
+
 .col-lg-8 {
 	-ms-flex: 0 0 86.666667%;
     flex: 0 0 86.666667%;
