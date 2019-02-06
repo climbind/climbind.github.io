@@ -144,6 +144,13 @@ a:hover {
   transition: all 0.2s;
   text-decoration: none;
 }
+.telecalss {
+background: url("../img/phonecontimage.png");
+display: inline-block;
+width: 50px;
+height:50px;
+margin-right: 13px;
+}
 
 #services a {
   -webkit-transition: all 0.2s;
